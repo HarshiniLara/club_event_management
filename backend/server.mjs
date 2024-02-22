@@ -26,9 +26,9 @@ app.use("/user", ParticipantRoutes)
 const config = {
   authRequired: false,
   auth0Logout: true,
-  secret: 'fAGg-OygTFWrTyV8a7TJbK6H5-HvJmNxBTe2JMPvMQYBK4XtDK8PAGCdH99O54ZX',
-  baseURL: 'http://localhost:5173',
-  clientID: '2hWWkAk3seOdEn7XXRYrPXYd8csGNcYm',
+  secret: 'tHCMm6QzTAm2JoWiUH_0HWey8O41ko73_Z84I3WbYC8ZqV9sdWD9h2CgseukXZXx',
+  baseURL: 'http://localhost:4000',
+  clientID: 'jxc1qeZd4Cc5n3a4KLzyqPiclnkB1aoX',
   issuerBaseURL: 'https://dev-7skt27ous46hfxoz.us.auth0.com'
 };
 
