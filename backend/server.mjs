@@ -5,6 +5,7 @@ import EventRoutes from './routes/event.mjs';
 import ParticipantRoutes from './routes/participant.mjs'
 import cors from 'cors';
 import bodyParser from 'body-parser';
+import {auth} from 'express-openid-connect';
 
 const PORT = process.env.PORT || 4000;
 
@@ -21,7 +22,6 @@ app.get('/', async(req, res) => {
 app.use("/events", EventRoutes)
 app.use("/user", ParticipantRoutes)
 
-const { auth } = require('express-openid-connect');
 
 const config = {
   authRequired: false,
