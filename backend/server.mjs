@@ -26,9 +26,9 @@ const { auth } = require('express-openid-connect');
 const config = {
   authRequired: false,
   auth0Logout: true,
-  secret: 'i0K6OB4pulf8Iw9cMen_rGoqBvhNOQ03imi5P1uURkQX__kbrnB0zBp3C-MRtayq',
-  baseURL: 'https://eventmanagement-8315c.web.app',
-  clientID: '9zlAPzHgOL7N8ytkyx5ew774ucnVVQWJ',
+  secret: 'fAGg-OygTFWrTyV8a7TJbK6H5-HvJmNxBTe2JMPvMQYBK4XtDK8PAGCdH99O54ZX',
+  baseURL: 'http://localhost:5173',
+  clientID: '2hWWkAk3seOdEn7XXRYrPXYd8csGNcYm',
   issuerBaseURL: 'https://dev-7skt27ous46hfxoz.us.auth0.com'
 };
 
